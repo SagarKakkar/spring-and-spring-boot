@@ -10,7 +10,7 @@ public class Greeting {
         return message;
     }
 
-    public Greeting() {}
+    public Greeting() {} // This constructor will be used by the JSON parser to convert a JSON response into an instance of Greeting.
 
     public Greeting(String message) {
         this.message = message;
